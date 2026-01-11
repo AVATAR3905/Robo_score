@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin | RoboSoccer Scoreboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>🔐 Admin Panel</h2>
+
+  <input type="password" id="password" placeholder="Enter admin password">
+  <button onclick="login()">Login</button>
+
+  <div id="adminPanel" style="display:none;">
+    <input type="text" id="name" placeholder="Participant Name">
+    <input type="number" id="goals" placeholder="Goals">
+    <button onclick="updateScore()">Update Score</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

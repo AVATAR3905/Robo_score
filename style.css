@@ -1,0 +1,45 @@
+body {
+  background: #020617;
+  color: #e5e7eb;
+  font-family: monospace;
+  text-align: center;
+  padding: 30px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+th, td {
+  border: 1px solid #334155;
+  padding: 10px;
+}
+
+th {
+  background: #0f172a;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.admin {
+  background: #dc2626;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+}
